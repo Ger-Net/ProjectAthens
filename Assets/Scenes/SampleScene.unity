@@ -708,9 +708,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f0995be11cdf74f821029e04b212df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _settlemetFactory: {fileID: 0}
-  _townsParent: []
-  _villagesParent: []
+  _settlemetFactory: {fileID: 11400000, guid: 9cc219458d78a3743a98343ad3dbd214, type: 2}
+  _townsParent:
+  - {fileID: 2034426060}
+  - {fileID: 249967788}
+  - {fileID: 603068672}
+  - {fileID: 1653443561}
+  _villagesParent:
+  - {fileID: 691108268}
+  - {fileID: 226654778}
+  - {fileID: 1143293018}
+  - {fileID: 407746883}
+  - {fileID: 1367256376}
+  - {fileID: 271263917}
+  - {fileID: 1759939161}
+  - {fileID: 366711871}
+  - {fileID: 113830814}
+  - {fileID: 1751259875}
+  - {fileID: 1533330578}
+  - {fileID: 1429784342}
   _towns: []
   _villages: []
 --- !u!1 &691108267
@@ -945,7 +961,7 @@ Transform:
   m_GameObject: {fileID: 1232144887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.7083, y: 1.9385, z: -0.034724765}
+  m_LocalPosition: {x: -6.7083, y: 1.9385, z: 0}
   m_LocalScale: {x: 0.718669, y: 1.945785, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1225,8 +1241,8 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 287682479
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Color: {r: 0, g: 0.7069764, b: 1, a: 0.13333334}
   m_MaskInteraction: 0
@@ -1273,7 +1289,7 @@ Transform:
   m_GameObject: {fileID: 1352966196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.63, y: 0, z: -0.034724765}
+  m_LocalPosition: {x: 1.63, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1518,7 +1534,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -1547,8 +1563,8 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 287682479
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Color: {r: 1, g: 0.7214558, b: 0, a: 0.13333334}
   m_MaskInteraction: 0
@@ -1813,7 +1829,7 @@ Transform:
   m_GameObject: {fileID: 2024347016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.034724765}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2086,7 +2102,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -2115,8 +2131,8 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 287682479
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Color: {r: 0, g: 1, b: 0.6115856, a: 0.13333334}
   m_MaskInteraction: 0
@@ -2194,7 +2210,7 @@ Transform:
   m_GameObject: {fileID: 2034517506}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.034724765}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2464,8 +2480,8 @@ SpriteShapeRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 287682479
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Color: {r: 0, g: 0.7069764, b: 1, a: 0.13333334}
   m_MaskInteraction: 0

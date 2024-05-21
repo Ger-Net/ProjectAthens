@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb948484c3189564f88fb698201f8a37, type: 3}
   m_Name: SettleFactory
   m_EditorClassIdentifier: 
-  _townPrefab: {fileID: 0}
-  _villagePrefab: {fileID: 0}
+  _townPrefab: {fileID: 7670277407443047797, guid: 152ba4bf81064d144a7d30e942e04acc, type: 3}
+  _villagePrefab: {fileID: 6443012331434902360, guid: 861cc03252ad4f941bbfb3f2280cc5b6, type: 3}

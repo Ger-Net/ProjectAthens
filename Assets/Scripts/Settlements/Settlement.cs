@@ -5,6 +5,8 @@ using UnityEngine;
 
 public abstract class Settlement : MonoBehaviour
 {
+    [SerializeField] private string _name;
+
     [SerializeField] private int _maxPopulation;
     [SerializeField] private int _population;
 

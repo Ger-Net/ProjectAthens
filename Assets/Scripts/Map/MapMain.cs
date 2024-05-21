@@ -12,19 +12,20 @@ public class MapMain : MonoBehaviour
     [SerializeField] private List<Town> _towns;
     [SerializeField] private List<Village> _villages;
 
-    private void Start()
-    {
-        GenerateSettlements();
-    }
+    public IReadOnlyList<Town> Towns => _towns;
+    public IReadOnlyList<Village> Villages => _villages;
 
     public void GenerateSettlements()
     {
         GenerateTowns();
         GenerateVillages();
     }
-    public List<Settlement> LocateSettelments()
+    public List<Settlement> LocateAllSettelments()
     {
-        return FindObjectsOfType<Settlement>().ToList();
+        List<Settlement> settlements = new List<Settlement>();
+        settlements.AddRange(_towns);
+        settlements.AddRange(_villages);
+        return settlements;
     }
 
     private void GenerateTowns()

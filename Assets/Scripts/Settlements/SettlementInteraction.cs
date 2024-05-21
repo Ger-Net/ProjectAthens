@@ -15,11 +15,11 @@ namespace Assets.Scripts.Settlements
         
         public void Open()
         {
-            _view.Open();
+            _view.OpenPanel();
         }
         public void Close()
         {
-            _view.Close();
+            _view.ClosePanel();
         }
     }
 }
